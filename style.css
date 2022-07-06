@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*********************************
+全体共通
+*********************************/
+
+.all-wrap{
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration : none;
+  color: #3B4B21;
+  font-weight: bold;
+}
+
+/*********************************
+header
+*********************************/
+
+.header{
+  background-color: #E8FFB6;
+
+  width: 100%;
+  height: 250px;
+}
+
+.nav-lists{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  font-size: 1.5rem;
+}
+
+.nav{
+  height: 30px;
+  padding-top: 200px;
+}
+
+.nav a{
+  padding: 30px;
+}
+
+.nav a:hover{
+  background-color: #FFF;
+  border-radius: 100px 100px 0 0;
+}
+
+.li-logo{
+  padding-top: 40px;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+/*------------------------------
+共通 top-sliders,
+--------------------------------*/
+.container{
+  margin: 30px 50px;
+}
+
+/*********************************
+top-sliders
+*********************************/
+
+.sliders{
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slider-img{
+  width: 850px;
+  height: 500px;
+  margin: auto;
+  object-fit: cover;
+}
+
