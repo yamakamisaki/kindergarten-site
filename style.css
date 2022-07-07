@@ -19,6 +19,22 @@ a{
   font-weight: bold;
 }
 
+/*------------------------------
+一部共通 top-sliders,
+--------------------------------*/
+.container{
+  margin: 70px 50px;
+}
+
+/*------------------------------
+一部共通 news,
+--------------------------------*/
+
+.container-centre{
+  width: 60%;
+  margin: 70px auto;
+}
+
 /*********************************
 header
 *********************************/
@@ -61,13 +77,6 @@ header
   border-radius: 100%;
 }
 
-/*------------------------------
-共通 top-sliders,
---------------------------------*/
-.container{
-  margin: 30px 50px;
-}
-
 /*********************************
 top-sliders
 *********************************/
@@ -86,3 +95,54 @@ top-sliders
   border-radius: 90px;
 }
 
+/*********************************
+news
+*********************************/
+
+.news-title{
+  text-align: center;
+  letter-spacing: 9px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3B4B21;
+}
+
+.news{
+  position: relative;
+  width: 60%;
+  margin: 30px auto;
+}
+
+.news-flex{
+  display: flex;
+  font-size: 19px;
+  margin-bottom: 20px;
+  color: #3B4B21;
+}
+
+.news-date{
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.news-text{
+  font-weight: normal;
+}
+
+.more{
+  position: absolute;
+  right: 340px;
+  bottom: -345px;
+  z-index: 1;
+  color: #3B4B21;
+  font-weight: bold;
+}
+
+.more-img{
+  position: absolute;
+  right: 280px;
+  bottom: -380px;
+  z-index: 0;
+  width: 200px;
+  height: 100px;
+}
