@@ -19,6 +19,11 @@ a{
   font-weight: bold;
 }
 
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
 /*------------------------------
 一部共通 top-sliders,
 --------------------------------*/
@@ -153,7 +158,7 @@ policy
 
 .policy-container{
   background-color: #E8FFB6;
-  margin: 170px auto 70px;
+  margin: 170px auto 0;
 }
 
 .title{
@@ -161,7 +166,7 @@ policy
   text-align: center;
   padding: 40px;
   letter-spacing: 10px;
-  font-size: 24px;
+  font-size: 27px;
   color: #FFF;
   font-weight: bold;
 }
@@ -170,11 +175,6 @@ policy
   position: relative;
   margin: 30px auto 0;
   width: 70%;
-}
-
-.policy-flex{
-  display: flex;
-  justify-content: space-around;
 }
 
 .policy-img,
@@ -189,7 +189,7 @@ policy
   left: 370px;
 }
 
-.policy-flex2{
+.policy-flex{
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -213,4 +213,98 @@ policy
   font-size: 24px;
   color: #3B4B21;
   font-weight: bold;
+}
+
+/*********************************
+introduction
+*********************************/
+
+.introduction{
+  width: 80%;
+  margin: 60px auto;
+}
+
+.introduction-img{
+  width: 300px;
+  height: 250px;
+  margin: 40px;
+}
+
+.introduction-img2{
+  width: 350px;
+  height: 270px;
+  margin: 40px;
+}
+
+.introduction-btn{
+  display: block;
+  width: 400px;
+  margin: 60px auto 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: #E8FFB6;
+  border-radius: 50px;
+  color: #3B4B21;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*********************************
+access
+*********************************/
+
+.access-title{
+  width: 35%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 100px 100px 0 0;
+}
+
+.access{
+  background-color: #E8FFB6;
+}
+
+.access-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.map{
+  width: 300px;
+  height: 300px;
+  margin: 100px 60px 100px 0;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.address{
+  width: 400px;
+  height: 300px;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.address-title{
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #3B4B21;
+  font-weight: bold;
+}
+
+.addresses{
+  width: 80%;
+  margin: 40px auto 0;
+}
+
+.address-flex{
+  display: flex;
+}
+
+.address-flex p{
+  font-size: 18px;
 }
