@@ -308,3 +308,31 @@ access
 .address-flex p{
   font-size: 18px;
 }
+
+/*********************************
+information
+*********************************/
+
+.information{
+  width: 100%;
+  height: 130px;
+  background-color: #5ABB68;
+}
+
+.information-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 140px;
+  margin: auto;
+}
+
+.information-btn{
+  width: 170px;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  text-align: center;
+  color: #3B4B21;
+}
